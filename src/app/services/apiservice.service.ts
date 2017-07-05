@@ -9,7 +9,7 @@ import 'rxjs/add/operator/catch';
 export class APIServiceService {
 
   constructor(private http:Http) {
-    this.getData()
+  this.getData()
   .subscribe(result => this.userlist = result);
 }
 
@@ -24,13 +24,13 @@ getData(){
 
  userlist : Object[]
 
-adduserlist(obj:object):object[]
-  {
-    this.userlist.push(obj);
-    console.log(this.userlist);
-    return this.userlist;
-
-  }
+// adduserlist(obj:object):object[]
+//   {
+//     this.userlist.push(obj);
+//     console.log(this.userlist);
+//     return this.userlist;
+//
+//   }
 
 
 

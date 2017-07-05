@@ -20,13 +20,13 @@ export class AdduserComponent implements OnInit {
 
 
 
-  adduser(){
-    this.api.adduserlist({
-      "name":this.newName,
-      "email":this.newName,
-      "adress":this.newAdress,
-      "company":this.newCompanyName,
-    });
-  }
+  // adduser(){
+  //   this.api.adduserlist({
+  //     "name":this.newName,
+  //     "email":this.newName,
+  //     "adress":this.newAdress,
+  //     "company":this.newCompanyName,
+  //   });
+  // }
 
 }
